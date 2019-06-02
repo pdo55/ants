@@ -60,7 +60,7 @@ The ShortThrower can only throw_at a Bee that is found after following at most 3
   
   -w, --water    loads a full layout with water
   
-  --food FOOD    number of food to start with when testing
+  --food FOOD    number of food to start with when starting the game
 ```
 python3 gui.py [-h] [-d DIFFICULTY] [-w] [--food FOOD]
 ```
