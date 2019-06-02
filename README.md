@@ -1,6 +1,8 @@
 # ants
 AntsVersusSomebees game
 
+![img](https://inst.eecs.berkeley.edu/~cs61a/su18/proj/ants/assets/splash.png)
+
 ## Core concepts
 - The Colony. This is where the game takes place. The colony consists of several places that are chained together to form a tunnel where bees can travel through. The colony has some quantity of food that can be expended to deploy ant troops.
 
