@@ -81,6 +81,7 @@ function startGame() {
     gui.get_gameState(false);
     drawControlPanel(gui.get_food(), gui.get_places(), gui.get_antTypes());
     gui.strategyTime = gui.get_strategyTime();
+    // setInterval(gui.fireOff(), 500)
     gui.interval = setInterval(gui.update.bind(gui), 500);
 }
 

@@ -302,7 +302,7 @@ class FireAnt(Ant):
     # OVERRIDE CLASS ATTRIBUTES HERE
     food_cost = 5
     # BEGIN Problem 5
-    implemented = True   # Change to True to view in the GUI
+    implemented = False   # Change to True to view in the GUI
     # END Problem 5
 
     def reduce_armor(self, amount):
@@ -329,7 +329,7 @@ class HungryAnt(Ant):
     food_cost = 4
     time_to_digest = 3
     # BEGIN Problem 6
-    implemented = True   # Change to True to view in the GUI
+    implemented = False   # Change to True to view in the GUI
     # END Problem 6
 
     def __init__(self, armor=1):
@@ -365,7 +365,7 @@ class NinjaAnt(Ant):
     food_cost = 5
     blocks_path = False
     # BEGIN Problem 7
-    implemented = True   # Change to True to view in the GUI
+    implemented = False   # Change to True to view in the GUI
     # END Problem 7
 
     def action(self, colony):
@@ -382,7 +382,7 @@ class WallAnt(Ant):
 
     name = 'Wall'
     food_cost = 4
-    implemented = True   # Change to True to view in the GUI
+    implemented = False   # Change to True to view in the GUI
 
     def __init__(self, armor=4):
         Ant.__init__(self, armor)
@@ -396,7 +396,7 @@ class BodyguardAnt(Ant):
     food_cost = 4
     is_container = True
     # BEGIN Problem 9
-    implemented = True   # Change to True to view in the GUI
+    implemented = False   # Change to True to view in the GUI
     # END Problem 9
 
     def __init__(self, armor=2):
@@ -424,7 +424,7 @@ class TankAnt(BodyguardAnt):
     # OVERRIDE CLASS ATTRIBUTES HERE
     food_cost = 6
     # BEGIN Problem 10
-    implemented = True   # Change to True to view in the GUI
+    implemented = False   # Change to True to view in the GUI
     # END Problem 10
 
     def action(self, colony):
@@ -456,7 +456,7 @@ class ScubaThrower(ThrowerAnt):
     name = 'Scuba'
     food_cost = 6
     is_watersafe = True
-    implemented = True   # Change to True to view in the GUI
+    implemented = False   # Change to True to view in the GUI
 # END Problem 12
 
 # BEGIN Problem 13
@@ -469,7 +469,7 @@ class QueenAnt(ScubaThrower):  # You should change this line
     food_cost = 7
     queen_ants_created = 0
     # BEGIN Problem 13
-    implemented = True   # Change to True to view in the GUI
+    implemented = False   # Change to True to view in the GUI
     # END Problem 13
 
     def __init__(self, armor=1):
@@ -580,7 +580,7 @@ class SlowThrower(ThrowerAnt):
 
     name = 'Slow'
     # BEGIN Problem EC
-    implemented = True   # Change to True to view in the GUI
+    implemented = False   # Change to True to view in the GUI
     food_cost = 4
     # END Problem EC
 
@@ -594,7 +594,7 @@ class ScaryThrower(ThrowerAnt):
 
     name = 'Scary'
     # BEGIN Problem EC
-    implemented = True   # Change to True to view in the GUI
+    implemented = False   # Change to True to view in the GUI
     food_cost = 6
     # END Problem EC
 
